@@ -2,17 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { MyFunction, MyThirdComponent } from './learn/MyComponent'
+
+
 
 const App = () => {
   const [count, setCount] = useState(0)
 
-  const MyFunction = () => (
-    // console.log("Kiem 101 trieu tháng nào")
-    <div>
-      <h1>Kiem 101 trieu thang nao</h1>
-    </div>
-  )
-  // myFunction()
+
   return (
     <>
       <div>
@@ -37,6 +34,7 @@ const App = () => {
       </p>
 
       <MyFunction />
+      <MyThirdComponent />
     </>
   )
 }
