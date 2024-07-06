@@ -3,9 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
 
+  const MyFunction = () => (
+    // console.log("Kiem 101 trieu tháng nào")
+    <div>
+      <h1>Kiem 101 trieu thang nao</h1>
+    </div>
+  )
+  // myFunction()
   return (
     <>
       <div>
@@ -26,9 +33,10 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more 222
+        Click on the Vite and React logos to learn more 22
       </p>
-      <p>Kiem 100 trieu 1 thang voi cong viec di lam thue nao</p>
+
+      <MyFunction />
     </>
   )
 }
