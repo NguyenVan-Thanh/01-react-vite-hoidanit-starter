@@ -33,3 +33,6 @@ Cách chạy tại chế độ production:
 3. Update file .env.production (nếu cần thiết)
 4. Build dự án: npm run build
 5. Chạy dự án: npm run preview
+
+cd E:/03-Workspace/hoidanit-vn/FrontEnd/Khoa_1_React_Ultimate/01-react-vite-hoidanit-starter
+cd E:/03-Workspace/hoidanit-vn/FrontEnd/Khoa_1_React_Ultimate/02-react-vite-hoidanit-final-project
